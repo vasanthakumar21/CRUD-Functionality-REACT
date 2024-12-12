@@ -1,0 +1,60 @@
+.form input {
+  border: 1px solid grey;
+  padding: 12px 10px;
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.form input:first-child {
+  margin-top: 20px;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form button {
+  background-color: blue;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 12px;
+}
+.dataTable {
+  margin-top: 50px;
+}
+
+table button:first-child {
+  background-color: yellow;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+table button:last-child {
+  margin-left: 10px;
+  background-color: red;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+body {
+  background-color: aliceblue;
+}
+
+
